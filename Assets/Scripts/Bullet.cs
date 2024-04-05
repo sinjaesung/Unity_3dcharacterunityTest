@@ -9,7 +9,7 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //Trigger의 경우 여기선 bullet발사체형상 자체를 의미함.
+        //Trigger의 경우 여기선 bullet발사체형상 자체를 의미함.github변경 반영 테스트
         if(other.gameObject.tag == "Floor")
         {
             Debug.Log("floor trigger시에 bullet개체 삭제");
